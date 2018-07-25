@@ -11,7 +11,6 @@ def change_rainbow_colors
 end
 
 def add_colors
-  rainbow_colors.push do |"green"|
-    rainbow_colors.push do |"blue"|
+  rainbow_colors.push ("green", "blue")
 end
   # Write a solution that adds "green", then "blue" to the rainbow_colors array, then returns the array
